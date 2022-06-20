@@ -8,17 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 public class JavaCampusApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(JavaCampusApplication.class, args);
 	}
 
-	@RestController
+	@RestController	
 	@RequestMapping("/api")
 	public class CreatorController {
 		@GetMapping("/creator")
 		public String getCreator() {
-			return "SpringCraft";
+			return "RedPlus";
 		}
 	}
 }

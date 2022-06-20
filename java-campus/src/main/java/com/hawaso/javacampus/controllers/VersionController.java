@@ -9,6 +9,6 @@ public class VersionController {
     @RequestMapping(value = "/version")
     @ResponseBody
     public String getVersion() {
-        return "<h1>JavaCampus v1.0</h1>";
+        return "<h1>JavaCampus V1.0</h1>";
     }
 }
